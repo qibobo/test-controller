@@ -1,0 +1,1 @@
+go mod edit -replace=github.com/qibobo/test-controller=../test-controller

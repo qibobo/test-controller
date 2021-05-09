@@ -91,6 +91,7 @@ func (c *Controller) Run() {
 		klog.Fatalln("Timeout expired during wait for caches to sync.")
 	}
 	klog.Infoln("Starting custom controller")
+	select {}
 }
 
 func main() {
